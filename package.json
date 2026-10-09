@@ -1,0 +1,12 @@
+{
+  "name": "afterhours-backend",
+  "version": "0.1.0",
+  "description": "Backend for AfterHours: a time-locked, ephemeral-pin map of local nightlife.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --no-warnings src/server.js",
+    "test": "node --no-warnings --test test/*.test.js"
+  }
+}
